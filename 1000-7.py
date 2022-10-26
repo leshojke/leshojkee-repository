@@ -1,0 +1,1 @@
+[print(x) for x in list(map(lambda x: f"{x} - 7?" if isinstance(x, int) else x, [*range(1000, 12, -7), "Я гуль!"])) for y in range(300001) if y == 300000]
